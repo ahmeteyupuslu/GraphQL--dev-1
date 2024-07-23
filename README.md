@@ -10,7 +10,7 @@ Bir Event, bir Location ile ilişkili olmalıdır.
 Bir Event birden fazla Participant ile ilişkili olmalıdır.
 Tüm tipler üzerinde tümünü listeleme ve id bazlı bir kaydı getirme Query'leri yazılmalıdır.
 Günün sonunda aşağıdaki Query'ler çalışır vaziyette olmalıdır.
-```
+<code>
   query users{}
   query user(id: 1){}
 
@@ -38,4 +38,4 @@ Günün sonunda aşağıdaki Query'ler çalışır vaziyette olmalıdır.
 
   query participants{}
   query participant(id: 1){}
-```
+</code>
