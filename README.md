@@ -14,11 +14,11 @@ Kullanıcılar, etkinlikler, etkinliklerin yapılacağı konum ve etkinlik katı
 Günün sonunda aşağıdaki Query'ler çalışır vaziyette olmalıdır.
 <br></br>
 
-  query users{}
-  query user(id: 1){}
+  query users{}</br>
+  query user(id: 1){}</br>
 
-  query events{}
-  query event(id: 1){}
+  query events{}</br>
+  query event(id: 1){}</br>
   query events{
     id
     title
@@ -36,9 +36,9 @@ Günün sonunda aşağıdaki Query'ler çalışır vaziyette olmalıdır.
     }
   }
 
-  query locations{}
-  query location(id: 1){}
+  query locations{}</br>
+  query location(id: 1){}</br>
 
-  query participants{}
-  query participant(id: 1){}
+  query participants{}</br>
+  query participant(id: 1){}</br>
 
