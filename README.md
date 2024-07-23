@@ -2,15 +2,17 @@
 Kullanıcılar, etkinlikler, etkinliklerin yapılacağı konum ve etkinlik katılımcılarını size sağlanan veri seti üzerinden görüntüleyebilecek bir GraphQL sunucu oluşturmanız gerekiyor.
 
 <h3>Gereksinimler</h3>
--Şuradaki veri seti kullanılarak bir GraphQL sunucusu ayağa kaldırılmalıdır.
--Temel olarak User, Event, Location ve Participant tiplerini oluşturmalısınız. Bu tiplerle alakalı fieldları veri seti üzerinden görüntüleyebilirsiniz.
-Bir User'a ait bir veya birden fazla Event olabilir.
-Bir Event, bir User ile ilişkili olmalıdır.
-Bir Event, bir Location ile ilişkili olmalıdır.
-Bir Event birden fazla Participant ile ilişkili olmalıdır.
-Tüm tipler üzerinde tümünü listeleme ve id bazlı bir kaydı getirme Query'leri yazılmalıdır.
+<ul>
+  <li>Şuradaki veri seti kullanılarak bir GraphQL sunucusu ayağa kaldırılmalıdır.</li>
+  <li>Temel olarak User, Event, Location ve Participant tiplerini oluşturmalısınız. Bu tiplerle alakalı fieldları veri seti üzerinden görüntüleyebilirsiniz.</li>
+  <li>Bir User'a ait bir veya birden fazla Event olabilir.</li>
+  <li>Bir Event, bir User ile ilişkili olmalıdır.</li>
+  <li>Bir Event, bir Location ile ilişkili olmalıdır.</li>
+  <li>Bir Event birden fazla Participant ile ilişkili olmalıdır.</li>
+  <li>Tüm tipler üzerinde tümünü listeleme ve id bazlı bir kaydı getirme Query'leri yazılmalıdır.</li>
+</ul>
 Günün sonunda aşağıdaki Query'ler çalışır vaziyette olmalıdır.
-<code>
+```
   query users{}
   query user(id: 1){}
 
@@ -38,4 +40,4 @@ Günün sonunda aşağıdaki Query'ler çalışır vaziyette olmalıdır.
 
   query participants{}
   query participant(id: 1){}
-</code>
+```
