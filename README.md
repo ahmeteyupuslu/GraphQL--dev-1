@@ -12,7 +12,8 @@ Kullanıcılar, etkinlikler, etkinliklerin yapılacağı konum ve etkinlik katı
   <li>Tüm tipler üzerinde tümünü listeleme ve id bazlı bir kaydı getirme Query'leri yazılmalıdır.</li>
 </ul>
 Günün sonunda aşağıdaki Query'ler çalışır vaziyette olmalıdır.
-```
+<br></br>
+
   query users{}
   query user(id: 1){}
 
@@ -40,4 +41,4 @@ Günün sonunda aşağıdaki Query'ler çalışır vaziyette olmalıdır.
 
   query participants{}
   query participant(id: 1){}
-```
+
